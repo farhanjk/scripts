@@ -1,6 +1,6 @@
 #Set my editor and git editor
-export EDITOR="/usr/local/bin/subl -w"
-export GIT_EDITOR='/usr/local/bin/subl -w'
+export EDITOR=vim
+export GIT_EDITOR=$EDITOR
 export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
