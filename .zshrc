@@ -1,6 +1,6 @@
 #Set my editor and git editor
-export EDITOR=vim
-export GIT_EDITOR=$EDITOR
+export EDITOR=mvim
+export GIT_EDITOR=vim
 export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
@@ -15,9 +15,13 @@ export PATH=$PATH:$ANDROID_HOME
 export PATH=$PATH:"/Users/farhan/android-sdk-macosx/tools"
 export PATH="/Users/farhan/.tmuxifier/bin:$PATH"
 
+export PATH="/Users/farhan/scripts/bin:$PATH"
+
 eval "$(tmuxifier init -)"
 
 export PATH=/usr/local/bin:$PATH
+
+alias mvim='open -a MacVim'
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/farhan/.oh-my-zsh
