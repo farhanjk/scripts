@@ -30,7 +30,7 @@ export ZSH=/Users/farhan/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="avit"
 
 setopt RM_STAR_WAIT
 setopt interactivecomments
