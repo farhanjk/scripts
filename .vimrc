@@ -4,4 +4,4 @@ set ignorecase
 set smartcase
 set incsearch
 set backspace=indent,eol,start
-
+map 1 <c-$>
