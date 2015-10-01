@@ -5,3 +5,8 @@ set smartcase
 set incsearch
 set backspace=indent,eol,start
 map 1 <c-$>
+inoremap <left> <nop>
+inoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+

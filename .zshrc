@@ -23,6 +23,7 @@ export PATH=/usr/local/bin:$PATH
 
 alias mvim='open -a MacVim'
 alias t='python ~/Dropbox/tasks/t/t.py --task-dir ~/Dropbox/tasks/list --list tasks'
+alias rm='rm -i'
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/farhan/.oh-my-zsh

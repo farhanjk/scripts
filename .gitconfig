@@ -30,6 +30,7 @@
 	caa = commit -a --amend -C HEAD
 	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..
+	branch = branch -v
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
