@@ -1,0 +1,10 @@
+function chrome() { open -g -a "Google Chrome" $1 }
+google() {
+    search=""
+    echo "Googling: $@"
+    for term in $@; do
+        search="$search%20$term"
+    done
+    open -a "Google Chrome" "http://www.google.com/search?q=$search"
+}
+
