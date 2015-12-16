@@ -119,3 +119,8 @@ source $ZSH/oh-my-zsh.sh
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
 
+# git aliases
+alias gds='git diff --stat'
+alias gaa='git add . --all'
+alias gct='git commit -am'
+alias gbv='git branch -v'
