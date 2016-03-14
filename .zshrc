@@ -28,6 +28,7 @@ alias rm="echo Use 'trash'"
 
 alias mv='mv -i'
 alias cp='cp -i'
+alias ftop='top -s1 -o cpu -R -F'
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/farhan/.oh-my-zsh
